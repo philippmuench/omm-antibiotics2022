@@ -1,0 +1,34 @@
+##fileformat=VCFv4.0
+##fileDate=20210714
+##source=lofreq call --sig 1E-4 --min-cov 25 --min-bq 25 --min-alt-bq 25 --min-mq 60 -f data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta -d 10000 --no-default-filter -r Enterococcus_faecalis_KB1:1-94551 -o /tmp/lofreq2_call_paralleluRoJTk/0.vcf.gz run_isolates/SW63/SW63.lofreq.bam 
+##reference=data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_82,Description="Minimum SNV Quality (Phred) 82">
+##FILTER=<ID=min_indelqual_40,Description="Minimum Indel Quality (Phred) 40">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_99,Description="Minimum SNV Quality (Phred) 99">
+##FILTER=<ID=min_indelqual_40,Description="Minimum Indel Quality (Phred) 40">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+Enterococcus_faecalis_KB1	181291	.	G	T	12303	PASS	DP=394;AF=0.880711;SB=15;DP4=0,6,196,192
+Enterococcus_faecalis_KB1	460012	.	G	A	18296	PASS	DP=502;AF=0.994024;SB=0;DP4=0,0,211,290
+Enterococcus_faecalis_KB1	1127152	.	G	A	24930	PASS	DP=699;AF=0.974249;SB=0;DP4=0,0,316,383
+Enterococcus_faecalis_KB1	1486397	.	G	A	134	PASS	DP=497;AF=0.020121;SB=2;DP4=230,236,7,10
+Enterococcus_faecalis_KB1	1909301	.	C	T	10920	PASS	DP=1210;AF=0.323141;SB=77;DP4=442,373,281,114
+Enterococcus_faecalis_KB1	1909482	.	A	G	11950	PASS	DP=1232;AF=0.344156;SB=7;DP4=383,414,191,244
+Enterococcus_faecalis_KB1	1909601	.	C	T	9960	PASS	DP=1190;AF=0.305882;SB=27;DP4=381,436,137,235
+Enterococcus_faecalis_KB1	1909682	.	A	T	7935	PASS	DP=1027;AF=0.286271;SB=133;DP4=322,409,58,238
+Enterococcus_faecalis_KB1	1909697	.	T	C	7015	PASS	DP=1021;AF=0.257591;SB=137;DP4=328,423,49,220
+Enterococcus_faecalis_KB1	1909712	.	G	A	6365	PASS	DP=1002;AF=0.239521;SB=136;DP4=335,425,43,199
+Enterococcus_faecalis_KB1	2360463	.	C	G	111	PASS	DP=505;AF=0.017822;SB=13;DP4=269,223,3,10
+Enterococcus_faecalis_KB1	2360475	.	C	T	159	PASS	DP=573;AF=0.019197;SB=15;DP4=303,244,5,13
+Enterococcus_faecalis_KB1	2480656	.	G	A	19373	PASS	DP=541;AF=0.979667;SB=0;DP4=0,0,284,255
+Enterococcus_faecalis_KB1	2602936	.	G	A	12625	PASS	DP=350;AF=0.985714;SB=0;DP4=0,0,160,190
+Enterococcus_faecalis_KB1	2602958	.	A	G	10261	PASS	DP=292;AF=0.976027;SB=0;DP4=0,0,139,153
+Enterococcus_faecalis_KB1	2602984	.	A	C	7423	PASS	DP=210;AF=0.976190;SB=0;DP4=0,0,101,109

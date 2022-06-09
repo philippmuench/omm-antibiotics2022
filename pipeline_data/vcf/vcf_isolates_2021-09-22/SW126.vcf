@@ -1,0 +1,32 @@
+##fileformat=VCFv4.0
+##fileDate=20210714
+##source=lofreq call --sig 1E-4 --min-cov 25 --min-bq 25 --min-alt-bq 25 --min-mq 60 -f data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta -d 10000 --no-default-filter -r Clostridium_innocuum_I46:1-139129 -o /tmp/lofreq2_call_parallellmwYwr/0.vcf.gz run_isolates/SW126/SW126.lofreq.bam 
+##reference=data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_82,Description="Minimum SNV Quality (Phred) 82">
+##FILTER=<ID=min_indelqual_40,Description="Minimum Indel Quality (Phred) 40">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_98,Description="Minimum SNV Quality (Phred) 98">
+##FILTER=<ID=min_indelqual_40,Description="Minimum Indel Quality (Phred) 40">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+Clostridium_innocuum_I46	996774	.	A	G	5809	PASS	DP=164;AF=0.981707;SB=0;DP4=0,0,82,81
+Clostridium_innocuum_I46	1761082	.	G	T	2051	PASS	DP=665;AF=0.133835;SB=32;DP4=294,282,63,26
+Clostridium_innocuum_I46	1863501	.	A	T	13849	PASS	DP=386;AF=0.987047;SB=0;DP4=0,0,175,211
+Clostridium_innocuum_I46	1873403	.	G	A	13667	PASS	DP=394;AF=0.961929;SB=0;DP4=0,0,181,212
+Clostridium_innocuum_I46	2257983	.	C	T	189	PASS	DP=379;AF=0.029024;SB=2;DP4=191,177,7,4
+Clostridium_innocuum_I46	3223872	.	T	C	7380	PASS	DP=550;AF=0.447273;SB=7;DP4=161,140,147,102
+Clostridium_innocuum_I46	3350206	.	G	A	14276	PASS	DP=395;AF=0.984810;SB=0;DP4=0,0,194,201
+Clostridium_innocuum_I46	4006866	.	C	T	9077	PASS	DP=255;AF=0.984314;SB=0;DP4=0,0,131,124
+Clostridium_innocuum_I46	4412804	.	C	A	6103	PASS	DP=172;AF=0.970930;SB=0;DP4=0,0,82,89
+Clostridium_innocuum_I46	4421680	.	G	A	6578	PASS	DP=535;AF=0.420561;SB=7;DP4=128,170,115,121
+Clostridium_innocuum_I46	4424537	.	A	G	9156	PASS	DP=542;AF=0.544280;SB=2;DP4=105,139,137,161
+Clostridium_innocuum_I46	4424836	.	C	T	7569	PASS	DP=535;AF=0.471028;SB=9;DP4=152,130,119,134
+Clostridium_innocuum_I46	4425456	.	T	A	6501	PASS	DP=465;AF=0.470968;SB=11;DP4=100,125,128,112
+Clostridium_innocuum_I46	4433347	.	A	G	8169	PASS	DP=602;AF=0.450166;SB=2;DP4=141,182,113,165

@@ -1,0 +1,45 @@
+##fileformat=VCFv4.0
+##fileDate=20210714
+##source=lofreq call --sig 1E-4 --min-cov 25 --min-bq 25 --min-alt-bq 25 --min-mq 60 -f data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta -d 10000 --no-default-filter -r Clostridium_innocuum_I46:1-139129 -o /tmp/lofreq2_call_parallelyfzrEx/0.vcf.gz run_isolates/SW85/SW85.lofreq.bam 
+##reference=data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_83,Description="Minimum SNV Quality (Phred) 83">
+##FILTER=<ID=min_indelqual_40,Description="Minimum Indel Quality (Phred) 40">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_99,Description="Minimum SNV Quality (Phred) 99">
+##FILTER=<ID=min_indelqual_40,Description="Minimum Indel Quality (Phred) 40">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+Clostridium_innocuum_I46	560	.	A	G	9853	PASS	DP=280;AF=0.967857;SB=0;DP4=0,0,133,147
+Clostridium_innocuum_I46	418902	.	A	G	8693	PASS	DP=239;AF=0.995816;SB=0;DP4=0,0,120,119
+Clostridium_innocuum_I46	418903	.	C	A	8703	PASS	DP=239;AF=0.991632;SB=0;DP4=0,0,120,119
+Clostridium_innocuum_I46	418909	.	A	T	8509	PASS	DP=239;AF=0.979079;SB=0;DP4=0,0,120,119
+Clostridium_innocuum_I46	505612	.	G	A	11922	PASS	DP=329;AF=0.987842;SB=0;DP4=0,0,176,153
+Clostridium_innocuum_I46	996774	.	A	G	5081	PASS	DP=144;AF=0.972222;SB=0;DP4=0,0,66,78
+Clostridium_innocuum_I46	1519047	.	A	C	15273	PASS	DP=465;AF=0.920430;SB=9;DP4=3,0,219,242
+Clostridium_innocuum_I46	1863501	.	A	T	13701	PASS	DP=386;AF=0.976684;SB=0;DP4=1,0,193,192
+Clostridium_innocuum_I46	1873403	.	G	A	16157	PASS	DP=459;AF=0.973856;SB=0;DP4=0,0,235,223
+Clostridium_innocuum_I46	3223872	.	T	C	6893	PASS	DP=488;AF=0.469262;SB=1;DP4=138,118,119,111
+Clostridium_innocuum_I46	3945952	.	A	T	10944	PASS	DP=318;AF=0.965409;SB=0;DP4=0,0,173,145
+Clostridium_innocuum_I46	4132775	.	T	A	6733	PASS	DP=343;AF=0.620991;SB=0;DP4=55,63,105,119
+Clostridium_innocuum_I46	4412804	.	C	A	7094	PASS	DP=202;AF=0.980198;SB=0;DP4=0,0,103,99
+Clostridium_innocuum_I46	4420464	.	A	G	8950	PASS	DP=626;AF=0.477636;SB=2;DP4=161,161,144,160
+Clostridium_innocuum_I46	4420780	.	C	T	7068	PASS	DP=561;AF=0.431373;SB=0;DP4=174,139,140,107
+Clostridium_innocuum_I46	4420781	.	T	C	7135	PASS	DP=562;AF=0.430605;SB=0;DP4=177,138,140,107
+Clostridium_innocuum_I46	4420785	.	T	A	7066	PASS	DP=556;AF=0.431655;SB=0;DP4=171,137,140,107
+Clostridium_innocuum_I46	4421066	.	T	G	9112	PASS	DP=664;AF=0.465361;SB=7;DP4=187,154,160,163
+Clostridium_innocuum_I46	4421118	.	A	G	9698	PASS	DP=672;AF=0.480655;SB=15;DP4=181,154,152,182
+Clostridium_innocuum_I46	4421181	.	A	G	6921	PASS	DP=531;AF=0.446328;SB=19;DP4=153,140,98,140
+Clostridium_innocuum_I46	4421184	.	G	A	7013	PASS	DP=517;AF=0.458414;SB=18;DP4=146,133,98,140
+Clostridium_innocuum_I46	4421202	.	T	C	122	PASS	DP=256;AF=0.031250;SB=19;DP4=111,137,0,8
+Clostridium_innocuum_I46	4421680	.	G	A	8510	PASS	DP=642;AF=0.448598;SB=8;DP4=178,171,131,161
+Clostridium_innocuum_I46	4424537	.	A	G	10030	PASS	DP=700;AF=0.481429;SB=1;DP4=165,188,157,189
+Clostridium_innocuum_I46	4424836	.	C	T	8407	PASS	DP=631;AF=0.454834;SB=4;DP4=180,163,141,147
+Clostridium_innocuum_I46	4425456	.	T	A	7628	PASS	DP=618;AF=0.430421;SB=8;DP4=153,173,155,137
+Clostridium_innocuum_I46	4433347	.	A	G	20837	PASS	DP=578;AF=0.989619;SB=0;DP4=0,0,267,311

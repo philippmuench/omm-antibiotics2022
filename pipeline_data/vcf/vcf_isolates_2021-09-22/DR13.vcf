@@ -1,0 +1,33 @@
+##fileformat=VCFv4.0
+##fileDate=20210714
+##source=lofreq call --sig 1E-4 --min-cov 25 --min-bq 25 --min-alt-bq 25 --min-mq 60 -f data/fasta_from_genbank_220621/with_index/Blautia_coccoides.fasta -d 10000 --no-default-filter -r Blautia_coccoides_YL58:1-160268 -o /tmp/lofreq2_call_parallel1swi2H/0.vcf.gz run_isolates/DR13/DR13.lofreq.bam 
+##reference=data/fasta_from_genbank_220621/with_index/Blautia_coccoides.fasta
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_82,Description="Minimum SNV Quality (Phred) 82">
+##FILTER=<ID=min_indelqual_40,Description="Minimum Indel Quality (Phred) 40">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_98,Description="Minimum SNV Quality (Phred) 98">
+##FILTER=<ID=min_indelqual_40,Description="Minimum Indel Quality (Phred) 40">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+Blautia_coccoides_YL58	369385	.	C	T	161	PASS	DP=69;AF=0.115942;SB=1;DP4=29,28,6,4
+Blautia_coccoides_YL58	1105555	.	C	T	125	PASS	DP=242;AF=0.028926;SB=1;DP4=129,106,3,4
+Blautia_coccoides_YL58	1456527	.	A	G	6167	PASS	DP=177;AF=0.954802;SB=0;DP4=0,0,76,100
+Blautia_coccoides_YL58	2009807	.	G	T	6660	PASS	DP=186;AF=0.989247;SB=0;DP4=0,0,95,91
+Blautia_coccoides_YL58	2160261	.	A	G	159	PASS	DP=239;AF=0.041841;SB=2;DP4=121,108,4,6
+Blautia_coccoides_YL58	2305830	.	G	A	9310	PASS	DP=260;AF=0.980769;SB=0;DP4=0,0,130,129
+Blautia_coccoides_YL58	2614979	.	T	G	158	PASS	DP=255;AF=0.035294;SB=2;DP4=139,105,5,6
+Blautia_coccoides_YL58	3622595	.	C	T	255	PASS	DP=237;AF=0.054852;SB=2;DP4=119,103,6,8
+Blautia_coccoides_YL58	4156632	.	T	A	457	PASS	DP=246;AF=0.089431;SB=0;DP4=127,97,12,10
+Blautia_coccoides_YL58	4448407	.	T	A	343	PASS	DP=203;AF=0.078818;SB=5;DP4=87,100,10,6
+Blautia_coccoides_YL58	4448425	.	T	A	384	PASS	DP=204;AF=0.088235;SB=3;DP4=91,95,11,7
+Blautia_coccoides_YL58	4448449	.	G	T	437	PASS	DP=195;AF=0.102564;SB=3;DP4=78,95,12,10
+Blautia_coccoides_YL58	4448461	.	T	G	287	PASS	DP=193;AF=0.072539;SB=2;DP4=80,98,5,9
+Blautia_coccoides_YL58	4448464	.	T	A	304	PASS	DP=191;AF=0.073298;SB=2;DP4=79,98,5,9
+Blautia_coccoides_YL58	4615246	.	A	G	5770	PASS	DP=164;AF=0.963415;SB=0;DP4=0,0,100,64
