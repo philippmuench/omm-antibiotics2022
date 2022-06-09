@@ -1,0 +1,460 @@
+samples:
+    DR1:
+        - ngs_isolates/DR1_R1.fastq.gz
+        - ngs_isolates/DR1_R2.fastq.gz
+    DR3:
+        - ngs_isolates/DR3_R1.fastq.gz
+        - ngs_isolates/DR3_R2.fastq.gz
+    DR4:
+        - ngs_isolates/DR4_R1.fastq.gz
+        - ngs_isolates/DR4_R2.fastq.gz
+    DR6:
+        - ngs_isolates/DR6_R1.fastq.gz
+        - ngs_isolates/DR6_R2.fastq.gz
+    DR7:
+        - ngs_isolates/DR7_R1.fastq.gz
+        - ngs_isolates/DR7_R2.fastq.gz
+    DR8:
+        - ngs_isolates/DR8_R1.fastq.gz
+        - ngs_isolates/DR8_R2.fastq.gz
+    DR10:
+        - ngs_isolates/DR10_R1.fastq.gz
+        - ngs_isolates/DR10_R2.fastq.gz
+    DR11:
+        - ngs_isolates/DR11_R1.fastq.gz
+        - ngs_isolates/DR11_R2.fastq.gz
+    DR12:
+        - ngs_isolates/DR12_R1.fastq.gz
+        - ngs_isolates/DR12_R2.fastq.gz
+    DR13:
+        - ngs_isolates/DR13_R1.fastq.gz
+        - ngs_isolates/DR13_R2.fastq.gz
+    SW61:
+        - ngs_isolates/SW61_R1.fastq.gz
+        - ngs_isolates/SW61_R2.fastq.gz
+    SW62:
+        - ngs_isolates/SW62_R1.fastq.gz
+        - ngs_isolates/SW62_R2.fastq.gz
+    SW63:
+        - ngs_isolates/SW63_R1.fastq.gz
+        - ngs_isolates/SW63_R2.fastq.gz
+    SW64:
+        - ngs_isolates/SW64_R1.fastq.gz
+        - ngs_isolates/SW64_R2.fastq.gz
+    SW65:
+        - ngs_isolates/SW65_R1.fastq.gz
+        - ngs_isolates/SW65_R2.fastq.gz
+    SW66:
+        - ngs_isolates/SW66_R1.fastq.gz
+        - ngs_isolates/SW66_R2.fastq.gz
+    SW67:
+        - ngs_isolates/SW67_R1.fastq.gz
+        - ngs_isolates/SW67_R2.fastq.gz
+    SW68:
+        - ngs_isolates/SW68_R1.fastq.gz
+        - ngs_isolates/SW68_R2.fastq.gz
+    SW69:
+        - ngs_isolates/SW69_R1.fastq.gz
+        - ngs_isolates/SW69_R2.fastq.gz
+    SW70:
+        - ngs_isolates/SW70_R1.fastq.gz
+        - ngs_isolates/SW70_R2.fastq.gz
+    SW71:
+        - ngs_isolates/SW71_R1.fastq.gz
+        - ngs_isolates/SW71_R2.fastq.gz
+    SW72:
+        - ngs_isolates/SW72_R1.fastq.gz
+        - ngs_isolates/SW72_R2.fastq.gz
+    SW73:
+        - ngs_isolates/SW73_R1.fastq.gz
+        - ngs_isolates/SW73_R2.fastq.gz
+    SW74:
+        - ngs_isolates/SW74_R1.fastq.gz
+        - ngs_isolates/SW74_R2.fastq.gz
+    SW75:
+        - ngs_isolates/SW75_R1.fastq.gz
+        - ngs_isolates/SW75_R2.fastq.gz
+    SW76:
+        - ngs_isolates/SW76_R1.fastq.gz
+        - ngs_isolates/SW76_R2.fastq.gz
+    SW77:
+        - ngs_isolates/SW77_R1.fastq.gz
+        - ngs_isolates/SW77_R2.fastq.gz
+    SW78:
+        - ngs_isolates/SW78_R1.fastq.gz
+        - ngs_isolates/SW78_R2.fastq.gz
+    SW79:
+        - ngs_isolates/SW79_R1.fastq.gz
+        - ngs_isolates/SW79_R2.fastq.gz
+    SW80:
+        - ngs_isolates/SW80_R1.fastq.gz
+        - ngs_isolates/SW80_R2.fastq.gz
+    SW81:
+        - ngs_isolates/SW81_R1.fastq.gz
+        - ngs_isolates/SW81_R2.fastq.gz
+    SW82:
+        - ngs_isolates/SW82_R1.fastq.gz
+        - ngs_isolates/SW82_R2.fastq.gz
+    SW83:
+        - ngs_isolates/SW83_R1.fastq.gz
+        - ngs_isolates/SW83_R2.fastq.gz
+    SW84:
+        - ngs_isolates/SW84_R1.fastq.gz
+        - ngs_isolates/SW84_R2.fastq.gz
+    SW85:
+        - ngs_isolates/SW85_R1.fastq.gz
+        - ngs_isolates/SW85_R2.fastq.gz
+    SW86:
+        - ngs_isolates/SW86_R1.fastq.gz
+        - ngs_isolates/SW86_R2.fastq.gz
+    SW87:
+        - ngs_isolates/SW87_R1.fastq.gz
+        - ngs_isolates/SW87_R2.fastq.gz
+    SW88:
+        - ngs_isolates/SW88_R1.fastq.gz
+        - ngs_isolates/SW88_R2.fastq.gz
+    SW89:
+        - ngs_isolates/SW89_R1.fastq.gz
+        - ngs_isolates/SW89_R2.fastq.gz
+    SW90:
+        - ngs_isolates/SW90_R1.fastq.gz
+        - ngs_isolates/SW90_R2.fastq.gz
+    SW91:
+        - ngs_isolates/SW91_R1.fastq.gz
+        - ngs_isolates/SW91_R2.fastq.gz
+    SW92:
+        - ngs_isolates/SW92_R1.fastq.gz
+        - ngs_isolates/SW92_R2.fastq.gz
+    SW93:
+        - ngs_isolates/SW93_R1.fastq.gz
+        - ngs_isolates/SW93_R2.fastq.gz
+    SW94:
+        - ngs_isolates/SW94_R1.fastq.gz
+        - ngs_isolates/SW94_R2.fastq.gz
+    SW95:
+        - ngs_isolates/SW95_R1.fastq.gz
+        - ngs_isolates/SW95_R2.fastq.gz
+    SW96:
+        - ngs_isolates/SW96_R1.fastq.gz
+        - ngs_isolates/SW96_R2.fastq.gz
+    SW97:
+        - ngs_isolates/SW97_R1.fastq.gz
+        - ngs_isolates/SW97_R2.fastq.gz
+    SW98:
+        - ngs_isolates/SW98_R1.fastq.gz
+        - ngs_isolates/SW98_R2.fastq.gz
+    SW99:
+        - ngs_isolates/SW99_R1.fastq.gz
+        - ngs_isolates/SW99_R2.fastq.gz
+    SW100:
+        - ngs_isolates/SW100_R1.fastq.gz
+        - ngs_isolates/SW100_R2.fastq.gz
+    SW101:
+        - ngs_isolates/SW101_R1.fastq.gz
+        - ngs_isolates/SW101_R2.fastq.gz
+    SW102:
+        - ngs_isolates/SW102_R1.fastq.gz
+        - ngs_isolates/SW102_R2.fastq.gz
+    SW103:
+        - ngs_isolates/SW103_R1.fastq.gz
+        - ngs_isolates/SW103_R2.fastq.gz
+    SW104:
+        - ngs_isolates/SW104_R1.fastq.gz
+        - ngs_isolates/SW104_R2.fastq.gz
+    SW105:
+        - ngs_isolates/SW105_R1.fastq.gz
+        - ngs_isolates/SW105_R2.fastq.gz
+    SW106:
+        - ngs_isolates/SW106_R1.fastq.gz
+        - ngs_isolates/SW106_R2.fastq.gz
+    SW107:
+        - ngs_isolates/SW107_R1.fastq.gz
+        - ngs_isolates/SW107_R2.fastq.gz
+    SW108:
+        - ngs_isolates/SW108_R1.fastq.gz
+        - ngs_isolates/SW108_R2.fastq.gz
+    SW109:
+        - ngs_isolates/SW109_R1.fastq.gz
+        - ngs_isolates/SW109_R2.fastq.gz
+    SW110:
+        - ngs_isolates/SW110_R1.fastq.gz
+        - ngs_isolates/SW110_R2.fastq.gz
+    SW111:
+        - ngs_isolates/SW111_R1.fastq.gz
+        - ngs_isolates/SW111_R2.fastq.gz
+    SW112:
+        - ngs_isolates/SW112_R1.fastq.gz
+        - ngs_isolates/SW112_R2.fastq.gz
+    SW113:
+        - ngs_isolates/SW113_R1.fastq.gz
+        - ngs_isolates/SW113_R2.fastq.gz
+    SW114:
+        - ngs_isolates/SW114_R1.fastq.gz
+        - ngs_isolates/SW114_R2.fastq.gz
+    SW115:
+        - ngs_isolates/SW115_R1.fastq.gz
+        - ngs_isolates/SW115_R2.fastq.gz
+    SW116:
+        - ngs_isolates/SW116_R1.fastq.gz
+        - ngs_isolates/SW116_R2.fastq.gz
+    SW117:
+        - ngs_isolates/SW117_R1.fastq.gz
+        - ngs_isolates/SW117_R2.fastq.gz
+    SW118:
+        - ngs_isolates/SW118_R1.fastq.gz
+        - ngs_isolates/SW118_R2.fastq.gz
+    SW119:
+        - ngs_isolates/SW119_R1.fastq.gz
+        - ngs_isolates/SW119_R2.fastq.gz
+    SW120:
+        - ngs_isolates/SW120_R1.fastq.gz
+        - ngs_isolates/SW120_R2.fastq.gz
+    SW121:
+        - ngs_isolates/SW121_R1.fastq.gz
+        - ngs_isolates/SW121_R2.fastq.gz
+    SW122:
+        - ngs_isolates/SW122_R1.fastq.gz
+        - ngs_isolates/SW122_R2.fastq.gz
+    SW123:
+        - ngs_isolates/SW123_R1.fastq.gz
+        - ngs_isolates/SW123_R2.fastq.gz
+    SW124:
+        - ngs_isolates/SW124_R1.fastq.gz
+        - ngs_isolates/SW124_R2.fastq.gz
+    SW125:
+        - ngs_isolates/SW125_R1.fastq.gz
+        - ngs_isolates/SW125_R2.fastq.gz
+    SW126:
+        - ngs_isolates/SW126_R1.fastq.gz
+        - ngs_isolates/SW126_R2.fastq.gz
+    SW127:
+        - ngs_isolates/SW127_R1.fastq.gz
+        - ngs_isolates/SW127_R2.fastq.gz
+    SW128:
+        - ngs_isolates/SW128_R1.fastq.gz
+        - ngs_isolates/SW128_R2.fastq.gz
+    SW129:
+        - ngs_isolates/SW129_R1.fastq.gz
+        - ngs_isolates/SW129_R2.fastq.gz
+    SW130:
+        - ngs_isolates/SW130_R1.fastq.gz
+        - ngs_isolates/SW130_R2.fastq.gz
+    SW131:
+        - ngs_isolates/SW131_R1.fastq.gz
+        - ngs_isolates/SW131_R2.fastq.gz
+    SW132:
+        - ngs_isolates/SW132_R1.fastq.gz
+        - ngs_isolates/SW132_R2.fastq.gz
+    SW133:
+        - ngs_isolates/SW133_R1.fastq.gz
+        - ngs_isolates/SW133_R2.fastq.gz
+    SW134:
+        - ngs_isolates/SW134_R1.fastq.gz
+        - ngs_isolates/SW134_R2.fastq.gz
+    SW135:
+        - ngs_isolates/SW135_R1.fastq.gz
+        - ngs_isolates/SW135_R2.fastq.gz
+    SW136:
+        - ngs_isolates/SW136_R1.fastq.gz
+        - ngs_isolates/SW136_R2.fastq.gz
+    SW137:
+        - ngs_isolates/SW137_R1.fastq.gz
+        - ngs_isolates/SW137_R2.fastq.gz
+    SW138:
+        - ngs_isolates/SW138_R1.fastq.gz
+        - ngs_isolates/SW138_R2.fastq.gz
+    SW139:
+        - ngs_isolates/SW139_R1.fastq.gz
+        - ngs_isolates/SW139_R2.fastq.gz
+    SW140:
+        - ngs_isolates/SW140_R1.fastq.gz
+        - ngs_isolates/SW140_R2.fastq.gz
+
+references:
+    DR1: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    DR3: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    DR4: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    DR6: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    DR7: data/fasta_from_genbank_220621/with_index/Blautia_coccoides.fasta
+    DR8: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    DR10: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    DR11: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    DR12: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    DR13: data/fasta_from_genbank_220621/with_index/Blautia_coccoides.fasta
+    SW61: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW62: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW63: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW64: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW65: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW66: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW67: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW68: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW69: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW70: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW71: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW72: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW73: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW74: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW75: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW76: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW77: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW78: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW79: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW80: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW81: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW82: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW83: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW84: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW85: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW86: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW87: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW88: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW89: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW90: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW91: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW92: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW93: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW94: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW95: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW96: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW97: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW98: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW99: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW100: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW101: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW102: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW103: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW104: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW105: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW106: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW107: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW108: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW109: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW110: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW111: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW112: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW113: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW114: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW115: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW116: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW117: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW118: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW119: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW120: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis.fasta
+    SW121: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW122: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW123: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW124: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW125: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW126: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW127: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW128: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW129: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW130: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW131: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW132: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW133: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW134: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW135: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW136: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW137: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW138: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW139: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+    SW140: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum.fasta
+
+references_bowtie2:
+    DR1: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    DR3: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    DR4: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    DR6: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    DR7: data/fasta_from_genbank_220621/with_index/Blautia_coccoides
+    DR8: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    DR10: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    DR11: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    DR12: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    DR13: data/fasta_from_genbank_220621/with_index/Blautia_coccoides
+    SW61: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW62: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW63: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW64: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW65: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW66: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW67: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW68: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW69: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW70: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW71: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW72: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW73: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW74: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW75: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW76: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW77: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW78: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW79: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW80: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW81: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW82: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW83: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW84: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW85: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW86: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW87: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW88: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW89: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW90: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW91: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW92: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW93: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW94: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW95: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW96: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW97: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW98: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW99: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW100: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW101: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW102: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW103: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW104: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW105: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW106: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW107: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW108: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW109: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW110: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW111: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW112: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW113: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW114: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW115: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW116: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW117: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW118: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW119: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW120: data/fasta_from_genbank_220621/with_index/Enterococcus_faecalis
+    SW121: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW122: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW123: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW124: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW125: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW126: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW127: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW128: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW129: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW130: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW131: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW132: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW133: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW134: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW135: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW136: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW137: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW138: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW139: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+    SW140: data/fasta_from_genbank_220621/with_index/Clostridium_innocuum
+
+outdir: run_isolates/
+bed:
+maxdepth: 100000
+mark_short_splits: true
